@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background: url("./img/background.jpg") no-repeat center center fixed;
+  margin-top: 67.5px !important;
+  margin-bottom: 77.5px !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.link{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.link:hover{
+  text-decoration: none;
+  color: #ed594e;
+}
